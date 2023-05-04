@@ -1,0 +1,89 @@
+* {
+  margin:0;
+  padding: 0;
+}
+
+
+.body {
+  max-width: 1280px;
+  margin: auto;
+  margin-top: 80px;
+}
+
+.navbar {
+  width: 100%;
+  background-color: black;
+  color: white;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+}
+
+.navbar div {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  max-width: 1280px;
+  margin: auto;
+  justify-content: space-between;
+  padding: 8px 0px;
+}
+
+.products-container{
+  display: grid;
+  grid-template-columns: repeat(3,300px);
+  gap: 20px;
+  padding: 8px;
+  margin-left: 250px;
+}
+
+.products{
+  text-align: center;
+}
+ .products img {
+  width: 200px;
+  height: 200px;
+  margin: auto;
+}
+
+.btn-price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 10px;
+  margin-top: 20px;
+}
+
+.btn-price button {
+  background-color: black;
+  color: white;
+  width: 100px;
+  padding: 8px;
+}
+
+.product-filter-container {
+  display: flex;  
+  gap: 20px;
+}
+
+.filter{
+  padding: 20px;
+  width: 200px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  position: fixed;
+  border-radius: 20px;
+}
+
+.filter h4{
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.filter input{
+  margin-left: 20px;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+

@@ -1,0 +1,155 @@
+*{
+  margin: 0;
+}
+
+.search{
+  width: 70%;
+  margin: auto;
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+
+.main{
+  min-width: 320px;
+  max-width: 1440px;
+  margin: auto;
+}
+
+.search input{
+  padding: 8px;
+}
+
+.nav {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: black;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.nav h1{
+  color: white;
+  font-size: 15px;
+  margin-left: 20px;
+}
+
+.table-container{
+  width: 70%;
+  margin: auto;
+}
+
+.table-container table {
+  width: 100%;
+  text-align: left;
+}
+
+.table, td,th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  border-collapse: collapse;
+}
+
+.paginate-container {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.paginate-container button {
+  border: none;
+  height: 50px;
+  width: 50px;
+  border-radius: 80%;
+}
+
+.delete-btn{
+  background-color: crimson;
+  color: white;
+  border: none;
+  margin-top: 20px;
+  padding: 6px 14px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.delete-btn:disabled {
+  background-color: lightgray;
+}
+
+.edit-box{
+  position: absolute;
+  width: 60%;
+  height: 400px;
+  top: 20%;
+  left: 20%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.edit-box h1{
+  width: 100%;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.edit-form {
+  width: 70%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.edit-form label,input{
+  width: 100%;
+}
+
+.edit-form input{
+  padding: 4px;
+  margin-bottom: 20px;
+}
+
+.form-container {
+  position: relative;
+}
+
+.close-btn {
+  position: absolute;
+  right: 20px;
+  top: 0px;
+  font-size: 30px
+}
+
+.td-icon{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.err-text{
+  text-align: center;
+}
+
+@media screen and (min-width:320px) and (max-width:768px)  {
+  .paginate-container{
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  .table-container{
+    width: 90%;
+    margin: auto;
+  }
+
+  .edit-box{
+    width: 80%;
+    left: 10%;
+    min-width: 320px;
+  }
+}
